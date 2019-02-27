@@ -18,20 +18,38 @@ class Navbar extends Component {
     const authLinks = (
       <ul className="navbar-nav ml-auto">
         <li className="nav-item">
-          <a
-            href="/"
-            onClick={this.onLogOutClick.bind(this)}
-            className="navlink"
-          >
-            <img
-              className="rounded-circle"
-              src={user.avatar}
-              alt={user.name}
-              style={{ width: "25px", marginRight: "5px" }}
-              title="You must have a gravatar connected to your email to display an image"
-            />
-            Logout
-          </a>
+          <div className="dropdown">
+            <button
+              className="btn btn-secondary border-0 bg-transparent dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              <img
+                className="rounded-circle"
+                src={user.avatar}
+                alt={user.name}
+                style={{ width: "25px", marginRight: "5px" }}
+                title="You must have a Gravatar connected to your email to display an image"
+              />
+            </button>
+
+            <div className="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <Link className="dropdown-item" to="/dashboard">
+                Dashboard
+              </Link>
+              <div className="dropdown-divider" />
+              <Link
+                className="dropdown-item"
+                to="#"
+                onClick={this.onLogOutClick.bind(this)}
+              >
+                Logout
+              </Link>
+            </div>
+          </div>
         </li>
       </ul>
     );
