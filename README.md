@@ -25,8 +25,8 @@ This was a web app project made using the MERN full stack while learning the MER
 - Heroku used to deploy application
 
 ## What I learned
-- MongoDB using mongoose package from npm
-- Express router to help create the API
+- Using MongoDB using mongoose package from npm
+- Using Express router to help create the API
 - Communicating with an API (get/post/delete http requests)
 - Ability to CRUD what goes in the database
 - Validation and error handling in the back end with .catch after fetching promises
@@ -34,6 +34,6 @@ This was a web app project made using the MERN full stack while learning the MER
 - Using redux to maintain application level state (actions sent to reducers, updates store)
 - Using lifecycle methods such as componentWillReceiveProps which works well with a state manager such as redux
 - Using bootstrap to style the components
-- Heroku to deploy application
+- Using Heroku to deploy application
 
 
