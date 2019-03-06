@@ -14,6 +14,7 @@ This was a web app project made using the MERN full stack while learning the MER
 
 ## Notable Features
 - Back end API interacting with front end to create/read/update/delete users, profiles, and posts
+- Abiliy to displays user's latest Github repos along with their star and fork count on their profile
 - Redux used with react as a state manager
 - Full app validation and error handling
 - JWT authentication for user login
