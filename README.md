@@ -28,7 +28,7 @@ This was a web app project made using the MERN full stack while learning the MER
 - Using MongoDB using mongoose package from npm
 - Using Express router to help create the API
 - Communicating with an API (get/post/delete http requests)
-- Ability to CRUD what goes in the database
+- Ability to CRUD what gets sent and received from the database
 - Validation and error handling in the back end with .catch after fetching promises
 - Using Passport and JWT Token authentication to register users and have them login using a token that expires after a certain time
 - Using redux to maintain application level state (actions sent to reducers, updates store)
